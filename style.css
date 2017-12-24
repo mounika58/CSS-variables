@@ -1,0 +1,36 @@
+body{
+    text-align: center ;
+    background: #c5718e6e;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: #7A7A99;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+input{
+    width:100px;
+}
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
+
